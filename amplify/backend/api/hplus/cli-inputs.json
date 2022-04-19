@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "hplus",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Working\\shincy\\Projects\\React_Amplify_Lnkdln\\hplus\\amplify\\backend\\api\\hplus\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authhplus085cd817"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 7,
+        "apiKeyExpirationDate": "2022-04-25T18:48:43.108Z",
+        "keyDescription": "newapp"
+      }
+    ]
+  }
+}
